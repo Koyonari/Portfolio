@@ -183,39 +183,39 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.4rem;
   }
-  .projects {
+  .certificates {
     background-color: var(--secondary-color);
     padding: 32px 0;
     margin-top: 2rem;
   }
-  .project-pic {
+  .certificates-pic {
     width: 65%;
     height: 60%;
   }
-  .projects-container {
+  .certificates-container {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .projects-title {
+  .certificates-title {
     text-align: center;
     margin-bottom: 1rem;
   }
-  .project-container {
+  .certificates-container {
     text-align: center;
     width: 21.875rem;
     padding: 1rem;
   }
-  .project-container p {
+  .certificates-container p {
     padding: 0.4rem;
   }
-  .project-title {
+  .certificates-title {
     margin-bottom: var(--bottom-margin);
   }
-  .project-details {
+  .certificates-details {
     margin-bottom: var(--bottom-margin);
   }
-  .project-card {
+  .certificates-card {
     background-color: #fff;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
