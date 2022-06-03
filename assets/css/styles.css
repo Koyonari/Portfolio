@@ -191,6 +191,7 @@ nav ul li {
   .certificates-pic {
     width: 65%;
     height: 60%;
+    object-fit: contain;
   }
   .certificates-container {
     display: flex;
@@ -204,6 +205,7 @@ nav ul li {
   .certificate-container {
     text-align: center;
     width: 21.875rem;
+    height: 350px;
     padding: 1rem;
   }
   .certificate-container p {
