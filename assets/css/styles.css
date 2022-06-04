@@ -162,6 +162,7 @@ nav ul li {
   .icon {
     width: 11.875rem;
     height: 11.25rem;
+    object-fit: contain;
   }
 
   .icon-card {
