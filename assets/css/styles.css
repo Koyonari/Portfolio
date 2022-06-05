@@ -225,6 +225,32 @@ nav ul li {
     padding: 20px;
     margin: 10px;
   }
+  .picture-container {
+    background-color: #292929;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+  .picture-card {
+    object-fit: contain;
+  }
+  .picture {
+    object-fit: contain;
+  }
+  .picture-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .picture {
+    margin-top: 2rem;
+  }
+  .picture h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: var(--bottom-margin-2);
+  }
   .contact {
     margin-top: 2rem;
   }
