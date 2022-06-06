@@ -218,6 +218,11 @@ nav ul li {
   .certificates-details {
     margin-bottom: var(--bottom-margin);
   }
+  .certificates-detailss {
+    margin-bottom: var(--bottom-margin);
+    color: #fff;
+    padding:1rem;
+  }
   .certificates-card {
     background-color: #fff;
     border-radius: 11px;
