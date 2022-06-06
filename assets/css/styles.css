@@ -225,6 +225,22 @@ nav ul li {
     padding: 20px;
     margin: 10px;
   }
+  .certificates-containers p {
+    padding:3rem
+  }
+  .certificate-containers {
+    text-align: center;
+    width: 65.625rem;
+    height: 450px;
+    padding: 1rem;
+  }
+  .certificates-cards {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
   .picture-container {
     background-color: #292929;
     border-radius: 11px;
