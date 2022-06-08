@@ -348,3 +348,71 @@ nav ul li {
     width: 3rem;
     height: 3rem;
   }
+  /* Small device Styling */
+@media screen and (max-width: 720px) {
+  /* Nav Bar */
+  nav ul {
+      position: fixed;
+      background-color: var(--bg-color);
+      flex-direction: column;
+      top: 86px;
+      left: 50%;
+      width: 50%;
+      text-align: center;
+      transform: translateX(120%);
+      transition: transform 0.5s ease-in;
+  }
+  nav ul li {
+      margin: 8px;
+  }
+  .burger-menu {
+      display: block;
+  }
+  nav ul.show {
+      transform: translateX(0);
+  }
+
+  /* About Me */
+  .hero {
+      margin-top: -1rem;
+      flex-direction: column;
+      gap: 0;
+  }
+  .hero img {
+      height: 20rem;
+      width: 20rem;
+  }
+  .bio {
+      width: 20.5rem;
+  }
+
+  /* Skill Section */
+  .icon {
+      width: 5.875rem;
+      height: 5.875rem;
+  }
+
+  /* Certs Section */
+  .certs-container {
+      flex-direction: column;
+  }
+  .cert-container {
+      width: 20.875rem;
+  }
+}
+
+/* For ultra small displays */
+@media screen and (max-width: 420px) {
+  .hero img {
+      height: 15rem;
+      width: 15rem;
+  }
+
+  .bio {
+      width: 18.3rem;
+  }
+
+  .cert-container {
+      width: 17.875rem;
+  }
+}
