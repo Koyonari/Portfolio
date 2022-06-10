@@ -412,7 +412,10 @@ nav ul li {
       width: 18.3rem;
   }
 
-  .cert-container {
+  .certificate-container {
       width: 17.875rem;
+      flex-direction: column;
   }
-}
+ .certificates-card {
+      flex-direction: column;
+  }
