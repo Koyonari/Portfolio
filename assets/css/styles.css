@@ -122,6 +122,7 @@ nav ul li {
 .hero img {
   height: 20%;
   width: 20%;
+  object-fit: contain;
 }
 
 .bio {
@@ -216,7 +217,7 @@ nav ul li {
     margin-bottom: var(--bottom-margin);
   }
   .certificates-details {
-    margin-bottom: var(--bottom-margin);
+    margin-bottom: var(--bottom-margin-2);
   }
   .certificates-detailss {
     margin-bottom: var(--bottom-margin);
@@ -398,25 +399,5 @@ nav ul li {
   }
   .cert-container {
       width: 20.875rem;
-  }
-}
-
-/* For ultra small displays */
-@media screen and (max-width: 420px) {
-  .hero img {
-      height: 15rem;
-      width: 15rem;
-  }
-
-  .bio {
-      width: 18.3rem;
-  }
-
-  .certificate-container {
-      width: 17.875rem;
-      flex-direction: column;
-  }
- .certificates-card {
-      flex-direction: column;
   }
 }
