@@ -199,6 +199,8 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 30vw;
+    margin-top: 20px;
   }
   .certificates-title {
     text-align: center;
@@ -230,7 +232,7 @@ nav ul li {
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
-    height: 30vw;
+    height: 100%;
   }
   .certificates-containers p {
     padding:3rem
