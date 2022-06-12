@@ -217,7 +217,7 @@ nav ul li {
     margin-bottom: var(--bottom-margin);
   }
   .certificates-details {
-    margin-bottom: var(--bottom-margin-2);
+    margin-bottom: var(--bottom-margin);
   }
   .certificates-detailss {
     margin-bottom: var(--bottom-margin);
@@ -237,7 +237,7 @@ nav ul li {
   .certificate-containers {
     text-align: center;
     width: 65.625rem;
-    height: 450px;
+    height: 37.1900826446281vw;
     padding: 1rem;
   }
   .certificates-cards {
